@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104889690367",
+    "firebase_url": "https://uainsured.firebaseio.com",
+    "project_id": "uainsured",
+    "storage_bucket": "uainsured.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104889690367:android:09744c7fbb390896aa84ca",
+        "android_client_info": {
+          "package_name": "com.arnold.uainsured"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104889690367-4bsdfdj7fn7c0m8vuhebpl5krsq5vn0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arnold.uainsured",
+            "certificate_hash": "e2ee232fc05fef0a2ec525388d2133fea839db60"
+          }
+        },
+        {
+          "client_id": "104889690367-1k8rr058oa2p4097c986lr686ec3s99b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTjsnqxzU9Z8Ez7PGoa0rv_ZBu8zc3saY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104889690367-1k8rr058oa2p4097c986lr686ec3s99b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
