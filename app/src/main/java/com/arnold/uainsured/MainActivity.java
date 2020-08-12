@@ -3,6 +3,7 @@ package com.arnold.uainsured;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -39,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        //Reset password
+        // TODO
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +50,25 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        //Registration
+        registration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent registrationActivity = new Intent(MainActivity.this, Registration.class);
+                startActivity(registrationActivity);
+                finish();
+
+            }
+        });
+
+
+
     }
+
+
+
+
 
     private void showDialogBox(int layout){
 

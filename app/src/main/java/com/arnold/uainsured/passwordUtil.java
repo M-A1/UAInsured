@@ -22,7 +22,7 @@ public class passwordUtil {
 
         if(!matcherPassword.matches()){
 
-            mPassword.setError("Password much include special characters,uppercase,and number");
+            mPassword.setError("Password must include special characters,uppercase,and number");
 
         }else if(password.isEmpty()){
             mPassword.setError("Enter password");

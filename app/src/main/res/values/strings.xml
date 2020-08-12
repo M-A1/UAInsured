@@ -8,4 +8,10 @@
     <string name="new_user">Dont have an account?Register</string>
     <string name="email">Email</string>
     <string name="submit">submit</string>
+    <string name="registration_header">Get on board</string>
+    <string name="name">Name</string>
+    <string name="phoneHint">Phone</string>
+    <string name="kra_number">KRA Number</string>
+    <string name="sign_in_here">Got an account? Sign in Here</string>
+    <string name="registration_button">Register</string>
 </resources>
